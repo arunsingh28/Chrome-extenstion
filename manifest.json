@@ -1,13 +1,13 @@
 {
     "manifest_version":2,
-    "name":"Google Chrome",
-    "version":"48.0.2564.116",
-    "description":"Google Chrome",
+    "name":"Contact Manager",
+    "version":"1.0.0",
+    "description":"Arun Singh social contact manager",
     "icons":{
         "128":"icons/icons.png"
     },
     "broweser_action":{
-        "default_title":"Google Chrome",
+        "default_title":"Contact",
         "default_icon":"icons/icons.png",
         "default_popup":"pages/popup.html"
     },

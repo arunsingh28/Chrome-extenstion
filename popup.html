@@ -6,15 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="test/css">
 
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
             font-family: 'Open Sans', sans-serif;
+        }
+
+        .modal-header {
+            background-color: #03498f;
+            color: #fff;
+            text-align: start;
+        }
+
+        .flex {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .logo-b {
+            padding: 10px 8px;
+        }
+
+        .version {
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 100;
+        }
+
+        .content {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .github {
+            font-size: 13px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .l {
+            max-height: 100px;
+            max-width: 100px;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #cddff154;
+            transition: all .2s ease-in-out;
+        }
+
+        .l:hover {
+            background-color: #03152794;
+        }
+
+        .fa-brands {
+            padding-bottom: 8px;
+            color: #fff;
         }
     </style>
 
@@ -22,14 +81,19 @@
 
 <body>
     <div class="modal-header">
-        <h1 class="logo">
-            <img src="icons/icons.png" alt="logo" class="logo">
-            <span class="version">1.0.1</span>
+        <h1 class="flex">
+            <img src="icons/icons.png" alt="logo" class="logo-b">
+            <span class="version">Arun Singh</span>
         </h1>
     </div>
     <div class="content">
-        <a href="https://github.com/arunsingh28">
+        <a href="https://github.com/arunsingh28" class="l">
             <i class="fa-brands fa-github"></i>
+            <h4 class="github">Github</h4>
+        </a>
+        <a href="https://linkedin.com/in/arunsingh28" class="l">
+            <i class="fa-brands fa-linkedin"></i>
+            <h4 class="github">Linkedin</h4>
         </a>
     </div>
 </body>
