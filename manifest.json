@@ -4,11 +4,11 @@
     "version":"1.0.0",
     "description":"Arun Singh social contact manager",
     "icons":{
-        "128":"icons/icons.png"
+        "128":"icons/icon-cl.png"
     },
     "browser_action":{
         "default_title":"Contact",
-        "default_icon":"icons/icons.png",
+        "default_icon":"icons/icon-cl.png",
         "default_popup":"popup.html"
     },
     "permissions":[
