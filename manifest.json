@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"Google Chrome",
+    "version":"48.0.2564.116",
+    "description":"Google Chrome",
+    "icons":{
+        "128":"icons/icons.png"
+    },
+    "broweser_action":{
+        "default_title":"Google Chrome",
+        "default_icon":"icons/icons.png",
+        "default_popup":"pages/popup.html"
+    },
+    "permission":[
+        "activeTab"
+    ]
+}
