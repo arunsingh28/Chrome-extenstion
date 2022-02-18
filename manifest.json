@@ -6,12 +6,12 @@
     "icons":{
         "128":"icons/icons.png"
     },
-    "broweser_action":{
+    "browser_action":{
         "default_title":"Contact",
         "default_icon":"icons/icons.png",
-        "default_popup":"pages/popup.html"
+        "default_popup":"popup.html"
     },
-    "permission":[
+    "permissions":[
         "activeTab"
     ]
 }
